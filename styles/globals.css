@@ -1,16 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.gradient-1 {
+	background: linear-gradient(
+		90deg,
+		rgba(172, 50, 228, 0.8) 0%,
+		rgba(121, 24, 242, 0.8) 48%,
+		rgba(72, 1, 255, 0.8) 100%
+	);
+	color: white;
+}
+
+.gradient-2 {
+	background: linear-gradient(
+		90deg,
+		rgba(172, 50, 228, 0.8) 0%,
+		rgba(121, 24, 242, 0.8) 48%,
+		rgba(72, 1, 255, 0.8) 100%
+	);
+}
+
+nav li:hover {
+	background: linear-gradient(
+		90deg,
+		rgba(172, 50, 228, 0.8) 0%,
+		rgba(121, 24, 242, 0.8) 48%,
+		rgba(72, 1, 255, 0.8) 100%
+	);
+}
+
+.project > canvas {
+	max-height: 400px;
+}
+
+.card-1 > canvas {
+	width: 410px !important;
 }
