@@ -20,7 +20,7 @@ a {
 	box-sizing: border-box;
 }
 
-.gradient-1 {
+/* .gradient-1 {
 	background: linear-gradient(
 		90deg,
 		rgba(172, 50, 228, 0.8) 0%,
@@ -37,16 +37,7 @@ a {
 		rgba(121, 24, 242, 0.8) 48%,
 		rgba(72, 1, 255, 0.8) 100%
 	);
-}
-
-nav li:hover {
-	background: linear-gradient(
-		90deg,
-		rgba(172, 50, 228, 0.8) 0%,
-		rgba(121, 24, 242, 0.8) 48%,
-		rgba(72, 1, 255, 0.8) 100%
-	);
-}
+} */
 
 .project > canvas {
 	max-height: 400px;

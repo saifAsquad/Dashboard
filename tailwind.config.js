@@ -13,6 +13,7 @@ module.exports = {
 				"gr-1": "#AC32E4",
 				"gr-2": "#7918F2",
 				"gr-3": "#4801FF",
+				"font-white": "#FFFFFF !important",
 			},
 		},
 	},

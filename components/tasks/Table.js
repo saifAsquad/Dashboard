@@ -119,7 +119,7 @@ export default function IndexPage() {
 								</select>
 							</div>
 							<div className="relative w-full lg:w-1/4 my-2 lg:my-0 cursor-pointer lg:mx-2 xl:mx-4 z-0 border focus:border-gray-800 border-gray-300 dark:border-gray-200 rounded p-2">
-								<div className="z-0 w-10 px-2 absolute inset-0 m-auto z-0 border-l mr-0 flex items-center text-indigo-700">
+								<div className="z-0 w-10 px-2 absolute inset-0 m-auto z-0 border-l mr-0 flex items-center text-gray-700">
 									<svg
 										xmlns="http://www.w3.org/2000/svg"
 										className="icon cursor-pointer icon-tabler icon-tabler-calendar-event"
@@ -215,7 +215,7 @@ export default function IndexPage() {
 												className="rounded border border-transparent focus:outline-none focus:border-gray-800 focus:shadow-outline-gray"
 												href="javascript: void(0)"
 											>
-												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded cursor-pointer text-indigo-700">
+												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded cursor-pointer text-gray-700">
 													<svg
 														xmlns="http://www.w3.org/2000/svg"
 														className="icon icon-tabler icon-tabler-edit"
@@ -239,7 +239,7 @@ export default function IndexPage() {
 												className="mx-2 rounded border border-transparent focus:outline-none focus:border-gray-800 focus:shadow-outline-gray"
 												href="javascript: void(0)"
 											>
-												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded cursor-pointer text-indigo-700">
+												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded cursor-pointer text-gray-700">
 													<svg
 														xmlns="http://www.w3.org/2000/svg"
 														className="icon icon-tabler icon-tabler-settings"
@@ -321,7 +321,7 @@ export default function IndexPage() {
 												className="rounded border border-transparent focus:outline-none focus:border-gray-800 focus:shadow-outline-gray"
 												href="javascript: void(0)"
 											>
-												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded cursor-pointer text-indigo-700">
+												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded cursor-pointer text-gray-700">
 													<svg
 														xmlns="http://www.w3.org/2000/svg"
 														className="icon icon-tabler icon-tabler-edit"
@@ -345,7 +345,7 @@ export default function IndexPage() {
 												className="mx-2 rounded border border-transparent focus:outline-none focus:border-gray-800 focus:shadow-outline-gray"
 												href="javascript: void(0)"
 											>
-												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded cursor-pointer text-indigo-700">
+												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded cursor-pointer text-gray-700">
 													<svg
 														xmlns="http://www.w3.org/2000/svg"
 														className="icon icon-tabler icon-tabler-settings"
@@ -427,7 +427,7 @@ export default function IndexPage() {
 												className="rounded border border-transparent focus:outline-none focus:border-gray-800 focus:shadow-outline-gray"
 												href="javascript: void(0)"
 											>
-												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded text-indigo-700">
+												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded text-gray-700">
 													<svg
 														xmlns="http://www.w3.org/2000/svg"
 														className="icon icon-tabler icon-tabler-edit"
@@ -451,7 +451,7 @@ export default function IndexPage() {
 												className="mx-2 rounded border border-transparent focus:outline-none focus:border-gray-800 focus:shadow-outline-gray"
 												href="javascript: void(0)"
 											>
-												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded text-indigo-700">
+												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded text-gray-700">
 													<svg
 														xmlns="http://www.w3.org/2000/svg"
 														className="icon icon-tabler icon-tabler-settings"
@@ -533,7 +533,7 @@ export default function IndexPage() {
 												className="rounded border border-transparent focus:outline-none focus:border-gray-800 focus:shadow-outline-gray"
 												href="javascript: void(0)"
 											>
-												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded cursor-pointer text-indigo-700">
+												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded cursor-pointer text-gray-700">
 													<svg
 														xmlns="http://www.w3.org/2000/svg"
 														className="icon icon-tabler icon-tabler-edit"
@@ -557,7 +557,7 @@ export default function IndexPage() {
 												className="mx-2 rounded border border-transparent focus:outline-none focus:border-gray-800 focus:shadow-outline-gray"
 												href="javascript: void(0)"
 											>
-												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded cursor-pointer text-indigo-700">
+												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded cursor-pointer text-gray-700">
 													<svg
 														xmlns="http://www.w3.org/2000/svg"
 														className="icon icon-tabler icon-tabler-settings"
@@ -639,7 +639,7 @@ export default function IndexPage() {
 												className="rounded border border-transparent focus:outline-none focus:border-gray-800 focus:shadow-outline-gray"
 												href="javascript: void(0)"
 											>
-												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded text-indigo-700">
+												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded text-gray-700">
 													<svg
 														xmlns="http://www.w3.org/2000/svg"
 														className="icon icon-tabler icon-tabler-edit"
@@ -663,7 +663,7 @@ export default function IndexPage() {
 												className="mx-2 rounded border border-transparent focus:outline-none focus:border-gray-800 focus:shadow-outline-gray"
 												href="javascript: void(0)"
 											>
-												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded text-indigo-700">
+												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded text-gray-700">
 													<svg
 														xmlns="http://www.w3.org/2000/svg"
 														className="icon icon-tabler icon-tabler-settings"
@@ -745,7 +745,7 @@ export default function IndexPage() {
 												className="rounded border border-transparent focus:outline-none focus:border-gray-800 focus:shadow-outline-gray"
 												href="javascript: void(0)"
 											>
-												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded cursor-pointer text-indigo-700">
+												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded cursor-pointer text-gray-700">
 													<svg
 														xmlns="http://www.w3.org/2000/svg"
 														className="icon icon-tabler icon-tabler-edit"
@@ -769,7 +769,7 @@ export default function IndexPage() {
 												className="mx-2 rounded border border-transparent focus:outline-none focus:border-gray-800 focus:shadow-outline-gray"
 												href="javascript: void(0)"
 											>
-												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded cursor-pointer text-indigo-700">
+												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded cursor-pointer text-gray-700">
 													<svg
 														xmlns="http://www.w3.org/2000/svg"
 														className="icon icon-tabler icon-tabler-settings"
@@ -851,7 +851,7 @@ export default function IndexPage() {
 												className="rounded border border-transparent focus:outline-none focus:border-gray-800 focus:shadow-outline-gray"
 												href="javascript: void(0)"
 											>
-												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded cursor-pointer text-indigo-700">
+												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded cursor-pointer text-gray-700">
 													<svg
 														xmlns="http://www.w3.org/2000/svg"
 														className="icon icon-tabler icon-tabler-edit"
@@ -875,7 +875,7 @@ export default function IndexPage() {
 												className="mx-2 rounded border border-transparent focus:outline-none focus:border-gray-800 focus:shadow-outline-gray"
 												href="javascript: void(0)"
 											>
-												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded cursor-pointer text-indigo-700">
+												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded cursor-pointer text-gray-700">
 													<svg
 														xmlns="http://www.w3.org/2000/svg"
 														className="icon icon-tabler icon-tabler-settings"
@@ -957,7 +957,7 @@ export default function IndexPage() {
 												className="rounded border border-transparent focus:outline-none focus:border-gray-800 focus:shadow-outline-gray"
 												href="javascript: void(0)"
 											>
-												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded cursor-pointer text-indigo-700">
+												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded cursor-pointer text-gray-700">
 													<svg
 														xmlns="http://www.w3.org/2000/svg"
 														className="icon icon-tabler icon-tabler-edit"
@@ -981,7 +981,7 @@ export default function IndexPage() {
 												className="mx-2 rounded border border-transparent focus:outline-none focus:border-gray-800 focus:shadow-outline-gray"
 												href="javascript: void(0)"
 											>
-												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded cursor-pointer text-indigo-700">
+												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded cursor-pointer text-gray-700">
 													<svg
 														xmlns="http://www.w3.org/2000/svg"
 														className="icon icon-tabler icon-tabler-settings"
@@ -1063,7 +1063,7 @@ export default function IndexPage() {
 												className="rounded border border-transparent focus:outline-none focus:border-gray-800 focus:shadow-outline-gray"
 												href="javascript: void(0)"
 											>
-												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded cursor-pointer text-indigo-700">
+												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded cursor-pointer text-gray-700">
 													<svg
 														xmlns="http://www.w3.org/2000/svg"
 														className="icon icon-tabler icon-tabler-edit"
@@ -1087,7 +1087,7 @@ export default function IndexPage() {
 												className="mx-2 rounded border border-transparent focus:outline-none focus:border-gray-800 focus:shadow-outline-gray"
 												href="javascript: void(0)"
 											>
-												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded cursor-pointer text-indigo-700">
+												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded cursor-pointer text-gray-700">
 													<svg
 														xmlns="http://www.w3.org/2000/svg"
 														className="icon icon-tabler icon-tabler-settings"
@@ -1169,7 +1169,7 @@ export default function IndexPage() {
 												className="rounded border border-transparent focus:outline-none focus:border-gray-800 focus:shadow-outline-gray"
 												href="javascript: void(0)"
 											>
-												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded text-indigo-700">
+												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded text-gray-700">
 													<svg
 														xmlns="http://www.w3.org/2000/svg"
 														className="icon icon-tabler icon-tabler-edit"
@@ -1193,7 +1193,7 @@ export default function IndexPage() {
 												className="mx-2 rounded border border-transparent focus:outline-none focus:border-gray-800 focus:shadow-outline-gray"
 												href="javascript: void(0)"
 											>
-												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded text-indigo-700">
+												<div className="p-2 bg-gray-100 hover:bg-gray-200 rounded text-gray-700">
 													<svg
 														xmlns="http://www.w3.org/2000/svg"
 														className="icon icon-tabler icon-tabler-settings"

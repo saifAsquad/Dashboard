@@ -9,7 +9,7 @@ const index = () => {
 	};
 	return (
 		<section className="px-7 pt-14">
-			<div className="w-full gradient-1 py-20 px-28 text-center rounded-3xl">
+			<div className="w-full bg-gradient-to-r from-gr-1 via-gr-2 to-gr-3 text-white  py-20 px-28 text-center rounded-3xl">
 				<h1 className="font-medium text-2xl">Make It Easy</h1>
 				<h1 className="font-semibold mt-6 text-4xl">
 					Experience Fun Learning and Experience Adventure

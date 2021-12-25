@@ -8,7 +8,7 @@ const Index = (props) => (
 							New
 						</div>
 						<div>
-							<div className="w-8 h-8 rounded-full gradient-1  text-white flex items-center justify-center">
+							<div className="w-8 h-8 rounded-full bg-gradient-to-r from-gr-1 via-gr-2 to-gr-3 text-white flex items-center justify-center">
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									className="icon icon-tabler icon-tabler-pencil"

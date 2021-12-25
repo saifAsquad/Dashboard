@@ -15,7 +15,7 @@ const index = () => {
 				</div>
 				<div className="text-gray-600 text-sm max-h-14  px-9 py-5 shadow-md hover:bg-gray-50 cursor-pointer">
 					Messages {""}
-					<span className="rounded-full gradient-1 text-center p-[2px] px-[5px] text-[10px]">
+					<span className="rounded-full bg-gradient-to-r from-gr-1 via-gr-2 to-gr-3 text-white text-center p-[2px] px-[5px] text-[10px]">
 						4
 					</span>
 				</div>
