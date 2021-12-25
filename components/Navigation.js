@@ -407,7 +407,7 @@ const Navigation = () => {
 				</ul>
 			</nav>
 			{/* Bottom Box of the Navigation */}
-			<div className="p-4 gradient-1 flex flex-row justify-evenly ">
+			<div className={`p-4 flex flex-row justify-evenly ${activeClass}`}>
 				<Image
 					src="/svgs/navigation/bell-icon.svg"
 					width={14}
