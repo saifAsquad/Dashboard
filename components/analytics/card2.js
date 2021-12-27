@@ -104,14 +104,16 @@ export default function IndexPage({ title, number, percentage }) {
 					src="https://cdn.tuk.dev/dev/light-dark-switch.js"
 				></script>
 			</Helmet>
-			<div className="  rounded shadow-lg bg-white overflow-hidden max-w-[356px] ">
+			<div className="dark:bg-gray-800  rounded shadow-lg bg-white overflow-hidden max-w-[356px] ">
 				<div className="flex justify-between p-7">
-					<h1>{title}</h1>
-					<p className="text-gray-800">28 days</p>
+					<h1 className="dark:text-gray-300">{title}</h1>
+					<p className="text-gray-800 dark:text-gray-300">28 days</p>
 				</div>
 				<div className="p-7">
-					<h1 className="text-gray-800 text-4xl font-bold">{number}</h1>
-					<p>
+					<h1 className="text-gray-800 text-4xl font-bold dark:text-gray-300">
+						{number}
+					</h1>
+					<p className="dark:text-gray-300">
 						<span className="text-red-600">{percentage} </span>Below Target
 					</p>
 				</div>

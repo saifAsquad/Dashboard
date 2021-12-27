@@ -194,7 +194,7 @@ const Index = () => {
 							</div>
 						</div>
 						<div className="lg:ml-6 flex items-center">
-							<button className="shadow-md transition duration-150 ease-in-out focus:outline-none border border-transparent focus:border-gray-800 focus:shadow-outline-gray hover:bg-gray-300 rounded  px-5 h-8 flex items-center text-sm">
+							<button className="shadow-md dark:bg-gray-700 hover:dark:bg-gray-600 dark:text-gray-300 transition duration-150 ease-in-out focus:outline-none border border-transparent focus:border-gray-800 focus:shadow-outline-gray hover:bg-gray-300 rounded  px-5 h-8 flex items-center text-sm">
 								Download All
 							</button>
 							<div className="text-white ml-4 cursor-pointer focus:outline-none border border-transparent focus:border-gray-800 focus:shadow-outline-gray bg-gradient-to-r from-gr-1 via-gr-2 to-gr-3 transition duration-150 ease-in-out w-8 h-8 rounded flex items-center justify-center">

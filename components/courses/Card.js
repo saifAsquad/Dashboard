@@ -1,6 +1,6 @@
-const Index = (props) => (
-	<div>
-		<div className="mx-auto container dark:bg-gray-900 flex justify-center items-center py-12 px-6">
+const Index = ({}) => (
+	<div className="max-w-[355px]">
+		<div className="mx-auto container  flex justify-center items-center py-12 px-6">
 			<div className="max-w-[345px]">
 				<div className="w-full  flex flex-col justify-between bg-white dark:bg-gray-800  rounded-lg border shadow-md mb-6 py-5 px-4">
 					<div className="w-full flex justify-between items-center h-full">

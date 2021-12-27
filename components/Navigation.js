@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 
 const repeatingStyles = {
 	listItem:
-		"w-full text-font-primary hover:text-white cursor-pointer text-sm p-[13px] pl-8 hover:bg-gradient-to-r from-gr-1 to-gr-2  ",
+		"w-full text-font-primary hover:text-white cursor-pointer dark:text-gray-300 text-sm p-[13px] pl-8 hover:bg-gradient-to-r from-gr-1 to-gr-2  ",
 };
 
 const Navigation = () => {
@@ -13,7 +13,7 @@ const Navigation = () => {
 		"bg-gradient-to-r from-gr-1 via-gr-2 to-gr-3 text-font-white";
 
 	return (
-		<div className="lg:w-80 flex flex-col  justify-between  shadow-md ">
+		<div className="lg:w-80 flex flex-col dark:border-r border-r-[#1F2937]  justify-between  shadow-md  dark:bg-gray-900">
 			{/* Main NAvigation */}
 			<nav>
 				<div className="mb-24  p-[35px] ">
@@ -23,16 +23,23 @@ const Navigation = () => {
 					</div>
 				</div>
 				<ul>
-					<h1 className="w-full h-10 pl-8 text-font-primary text-sm">
-						<span className="align-middle inline-block">
-							<Image
-								src="/svgs/navigation/dashboard-icon.svg"
-								width={16}
-								height={16}
+					<h1 className="w-full h-10 pl-8 dark:text-gray-300 text-font-primary text-sm">
+						<svg
+							width="16"
+							height="16"
+							viewBox="0 0 16 16"
+							className="inline-block align-middle"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								fillRule="evenodd"
+								clipRule="evenodd"
+								fill="currentColor"
+								d="M5.14286 0H1.71429C0.771429 0 0 0.771429 0 1.71429V5.14286C0 6.08963 0.767512 6.85714 1.71429 6.85714H5.14286C6.08963 6.85714 6.85714 6.08963 6.85714 5.14286V1.71429C6.85714 0.767512 6.08963 0 5.14286 0ZM1.14307 5.71428V1.14285H5.7145V5.71428H1.14307ZM10.8574 0H14.2859C15.2327 0 16.0002 0.767512 16.0002 1.71429V5.14286C16.0002 6.08963 15.2327 6.85714 14.2859 6.85714H10.8574C9.91058 6.85714 9.14307 6.08963 9.14307 5.14286V1.71429C9.14307 0.771429 9.9145 0 10.8574 0ZM10.2857 5.71429V1.14286H14.8571V5.71429H10.2857ZM1.71429 9.14286H5.14286C6.08963 9.14286 6.85714 9.91037 6.85714 10.8571V14.2857C6.85714 15.2325 6.08963 16 5.14286 16H1.71429C0.767512 16 0 15.2325 0 14.2857V10.8571C0 9.91429 0.771429 9.14286 1.71429 9.14286ZM1.14307 14.8571V10.2857H5.7145V14.8571H1.14307ZM10.8574 9.14285H14.2859C15.2327 9.14285 16.0002 9.91037 16.0002 10.8571V14.2857C16.0002 15.2325 15.2327 16 14.2859 16H10.8574C9.91058 16 9.14307 15.2325 9.14307 14.2857V10.8571C9.14307 9.91428 9.9145 9.14285 10.8574 9.14285ZM10.2857 14.8571V10.2857H14.8571V14.8571H10.2857Z"
 							/>
-						</span>
+						</svg>
 						{"  "}
-						<span className="align-middle inline-block">Dashboard</span>
+						<span className="align-middle inline-block ">Dashboard</span>
 					</h1>
 					<Link href="/">
 						<li
@@ -49,8 +56,8 @@ const Navigation = () => {
 								xmlns="http://www.w3.org/2000/svg"
 							>
 								<path
-									fill-rule="evenodd"
-									clip-rule="evenodd"
+									fillRule="evenodd"
+									clipRule="evenodd"
 									d="M10.4 14.4C10.4 15.2837 11.1163 16 12 16H14.4C15.2837 16 16 15.2837 16 14.4V12C16 11.1163 15.2837 10.4 14.4 10.4H13.6C13.1582 10.4 12.8 10.0418 12.8 9.6C12.8 9.15817 13.1582 8.8 13.6 8.8H14.4C15.2837 8.8 16 8.08366 16 7.2V4.8C16 3.91634 15.2837 3.2 14.4 3.2H12V2.4C12 1.07452 10.9255 0 9.6 0C8.27452 0 7.2 1.07452 7.2 2.4V3.2H4.8C3.92 3.2 3.2 3.912 3.2 4.8V7.2H2.4C1.54256 7.2 0.750258 7.65744 0.321539 8.4C-0.10718 9.14256 -0.10718 10.0574 0.321539 10.8C0.750258 11.5426 1.54256 12 2.4 12H3.2V14.4C3.2 15.2837 3.91634 16 4.8 16H7.2C8.08366 16 8.8 15.2837 8.8 14.4V13.6C8.8 13.1582 9.15817 12.8 9.6 12.8C10.0418 12.8 10.4 13.1582 10.4 13.6V14.4ZM14.4 12V14.4H12V13.6C12 12.7426 11.5426 11.9503 10.8 11.5215C10.0574 11.0928 9.14256 11.0928 8.4 11.5215C7.65744 11.9503 7.2 12.7426 7.2 13.6V14.4H4.8V12C4.8 11.1163 4.08366 10.4 3.2 10.4H2.4C1.95817 10.4 1.6 10.0418 1.6 9.6C1.6 9.15817 1.95817 8.8 2.4 8.8H3.2C4.08366 8.8 4.8 8.08366 4.8 7.2V4.8H7.2C8.08366 4.8 8.8 4.08366 8.8 3.2V2.4C8.8 1.95817 9.15817 1.6 9.6 1.6C10.0418 1.6 10.4 1.95817 10.4 2.4V3.2C10.4 4.08366 11.1163 4.8 12 4.8H14.4V7.2H13.6C12.7426 7.2 11.9503 7.65744 11.5215 8.4C11.0928 9.14256 11.0928 10.0574 11.5215 10.8C11.9503 11.5426 12.7426 12 13.6 12H14.4Z"
 									fill="currentColor"
 								/>
@@ -73,8 +80,8 @@ const Navigation = () => {
 								xmlns="http://www.w3.org/2000/svg"
 							>
 								<path
-									fill-rule="evenodd"
-									clip-rule="evenodd"
+									fillRule="evenodd"
+									clipRule="evenodd"
 									d="M0 8C0 12.4183 3.58172 16 8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8ZM14.4 8C14.4 11.5346 11.5346 14.4 8 14.4C4.46538 14.4 1.6 11.5346 1.6 8C1.6 4.46538 4.46538 1.6 8 1.6C11.5346 1.6 14.4 4.46538 14.4 8ZM6.04823 5.544L11.1442 3.848C11.4303 3.75508 11.7443 3.83049 11.957 4.04319C12.1697 4.25589 12.2451 4.56991 12.1522 4.856L10.4562 9.952C10.3765 10.1897 10.1899 10.3763 9.95223 10.456L4.85623 12.152C4.57014 12.2449 4.25611 12.1695 4.04342 11.9568C3.83072 11.7441 3.75531 11.4301 3.84823 11.144L5.54423 6.048C5.62397 5.81031 5.81054 5.62374 6.04823 5.544ZM5.87497 10.127L5.872 10.128V10.136L5.87497 10.127ZM5.87497 10.127L9.072 9.064L10.128 5.864L6.928 6.936L5.87497 10.127Z"
 									fill="currentColor"
 								/>
@@ -103,30 +110,30 @@ const Navigation = () => {
 									height="8.66667"
 									rx="1.66667"
 									stroke="currentColor"
-									stroke-width="1.25"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeWidth="1.25"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								/>
 								<path
 									d="M5.3335 4.66667V3.33333C5.3335 2.59695 5.93045 2 6.66683 2H9.3335C10.0699 2 10.6668 2.59695 10.6668 3.33333V4.66667"
 									stroke="currentColor"
-									stroke-width="1.25"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeWidth="1.25"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								/>
 								<path
 									d="M7.99984 8V8.00666"
 									stroke="currentColor"
-									stroke-width="1.25"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeWidth="1.25"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								/>
 								<path
 									d="M2 8.66666C5.77397 10.5684 10.226 10.5684 14 8.66666"
 									stroke="currentColor"
-									stroke-width="1.25"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeWidth="1.25"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								/>
 							</svg>
 
@@ -150,39 +157,39 @@ const Navigation = () => {
 								<path
 									d="M9.33398 2V4.66667C9.33398 5.03486 9.63246 5.33333 10.0007 5.33333H12.6673"
 									stroke="currentColor"
-									stroke-width="1.25"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeWidth="1.25"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								/>
 								<path
-									fill-rule="evenodd"
-									clip-rule="evenodd"
+									fillRule="evenodd"
+									clipRule="evenodd"
 									d="M11.334 14H4.66732C3.93094 14 3.33398 13.403 3.33398 12.6667V3.33333C3.33398 2.59695 3.93094 2 4.66732 2H9.33398L12.6673 5.33333V12.6667C12.6673 13.403 12.0704 14 11.334 14Z"
 									stroke="currentColor"
-									stroke-width="1.25"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeWidth="1.25"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								/>
 								<path
 									d="M6 4.66667H6.66667"
 									stroke="currentColor"
-									stroke-width="1.25"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeWidth="1.25"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								/>
 								<path
 									d="M6 8.66667H10"
 									stroke="currentColor"
-									stroke-width="1.25"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeWidth="1.25"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								/>
 								<path
 									d="M8.66602 11.3333H9.99935"
 									stroke="currentColor"
-									stroke-width="1.25"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeWidth="1.25"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								/>
 							</svg>
 
@@ -206,21 +213,21 @@ const Navigation = () => {
 							>
 								<path
 									d="M7.99935 2.66667L2.66602 5.33333L7.99935 8L13.3327 5.33333L7.99935 2.66667"
-									stroke-width="1.25"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeWidth="1.25"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								/>
 								<path
 									d="M2.66602 8L7.99935 10.6667L13.3327 8"
-									stroke-width="1.25"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeWidth="1.25"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								/>
 								<path
 									d="M2.66602 10.6667L7.99935 13.3333L13.3327 10.6667"
-									stroke-width="1.25"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeWidth="1.25"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								/>
 							</svg>
 							<span className="align-middle"> Courses</span>
@@ -243,8 +250,8 @@ const Navigation = () => {
 							>
 								<path
 									d="M7.778 4C6.118 4 5.082 4.81467 4.66667 6.44467C5.28867 5.62933 6.01533 5.32467 6.84467 5.528C7.318 5.644 7.656 5.98133 8.03 6.35467C8.64067 6.96267 9.36333 7.66667 10.8887 7.66667C12.5487 7.66667 13.5847 6.852 14 5.222C13.378 6.03733 12.6513 6.342 11.822 6.13867C11.3487 6.02267 11.0107 5.68533 10.6367 5.312C10.026 4.704 9.32 4 7.778 4ZM5.11133 8.33333C3.45133 8.33333 2.41533 9.148 2 10.778C2.622 9.96267 3.34867 9.658 4.178 9.86133C4.65133 9.97733 4.98933 10.3147 5.36333 10.688C5.974 11.296 6.68 12 8.222 12C9.882 12 10.918 11.1853 11.3333 9.55533C10.7113 10.3707 9.98467 10.6753 9.15533 10.472C8.682 10.356 8.344 10.0187 7.97 9.64533C7.35933 9.03733 6.65333 8.33333 5.11133 8.33333Z"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								/>
 							</svg>
 							<span className="align-middle"> Tailwind CSS</span>
@@ -268,9 +275,9 @@ const Navigation = () => {
 								<path d="M5.66667 6.33333C6.03486 6.33333 6.33333 6.03486 6.33333 5.66667C6.33333 5.29848 6.03486 5 5.66667 5C5.29848 5 5 5.29848 5 5.66667C5 6.03486 5.29848 6.33333 5.66667 6.33333Z" />
 								<path
 									d="M2.66797 4.66666V7.23932C2.66797 7.59732 2.80997 7.94066 3.0633 8.19399L8.47397 13.6047C8.59933 13.73 8.74816 13.8295 8.91197 13.8974C9.07577 13.9652 9.25133 14.0001 9.42864 14.0001C9.60594 14.0001 9.7815 13.9652 9.94531 13.8974C10.1091 13.8295 10.2579 13.73 10.3833 13.6047L13.606 10.382C13.7313 10.2566 13.8308 10.1078 13.8987 9.94399C13.9665 9.78019 14.0014 9.60463 14.0014 9.42732C14.0014 9.25002 13.9665 9.07446 13.8987 8.91065C13.8308 8.74685 13.7313 8.59802 13.606 8.47266L8.19464 3.06199C7.9416 2.80899 7.59846 2.66679 7.24064 2.66666H4.66797C4.13754 2.66666 3.62883 2.87737 3.25376 3.25244C2.87868 3.62752 2.66797 4.13622 2.66797 4.66666V4.66666Z"
-									stroke-width="1.33333"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeWidth="1.33333"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								/>
 							</svg>
 							<span className="align-middle"> Pricing</span>
@@ -293,15 +300,15 @@ const Navigation = () => {
 							>
 								<path
 									d="M5.33398 5.33333C5.33398 4.8029 5.57982 4.29419 6.0174 3.91911C6.45499 3.54404 7.04848 3.33333 7.66732 3.33333H8.33398C8.95282 3.33333 9.54632 3.54404 9.9839 3.91911C10.4215 4.29419 10.6673 4.8029 10.6673 5.33333C10.6919 5.76616 10.5751 6.19526 10.3346 6.55598C10.0941 6.9167 9.74297 7.18951 9.33398 7.33333C8.925 7.52508 8.57382 7.88883 8.33334 8.36979C8.09286 8.85075 7.9761 9.42288 8.00065 10"
-									stroke-width="1.33333"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeWidth="1.33333"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								/>
 								<path
 									d="M8 12.6667V12.6733"
-									stroke-width="1.33333"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeWidth="1.33333"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								/>
 							</svg>
 							<span className="align-middle"> FAQ</span>
@@ -324,13 +331,13 @@ const Navigation = () => {
 							>
 								<path
 									d="M8.66602 13.3333L13.3327 8.66667"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								/>
 								<path
 									d="M8.66602 13.3333V9.33334C8.66602 9.15653 8.73625 8.98696 8.86128 8.86193C8.9863 8.73691 9.15587 8.66667 9.33268 8.66667H13.3327V4.00001C13.3327 3.64638 13.1922 3.30724 12.9422 3.0572C12.6921 2.80715 12.353 2.66667 11.9993 2.66667H3.99935C3.64573 2.66667 3.30659 2.80715 3.05654 3.0572C2.80649 3.30724 2.66602 3.64638 2.66602 4.00001V12C2.66602 12.3536 2.80649 12.6928 3.05654 12.9428C3.30659 13.1929 3.64573 13.3333 3.99935 13.3333H8.66602Z"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								/>
 							</svg>
 							<span className="align-middle"> Contact</span>
@@ -353,18 +360,18 @@ const Navigation = () => {
 							>
 								<path
 									d="M10 2V4.66667C10 4.84348 10.0702 5.01305 10.1953 5.13807C10.3203 5.2631 10.4899 5.33333 10.6667 5.33333H13.3333"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								/>
 								<path
 									d="M12 11.3333H7.33333C6.97971 11.3333 6.64057 11.1929 6.39052 10.9428C6.14048 10.6928 6 10.3536 6 10V3.33333C6 2.97971 6.14048 2.64057 6.39052 2.39052C6.64057 2.14048 6.97971 2 7.33333 2H10L13.3333 5.33333V10C13.3333 10.3536 13.1929 10.6928 12.9428 10.9428C12.6928 11.1929 12.3536 11.3333 12 11.3333Z"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								/>
 								<path
 									d="M10.6673 11.3333V12.6667C10.6673 13.0203 10.5268 13.3594 10.2768 13.6095C10.0267 13.8595 9.68761 14 9.33398 14H4.66732C4.3137 14 3.97456 13.8595 3.72451 13.6095C3.47446 13.3594 3.33398 13.0203 3.33398 12.6667V5.99999C3.33398 5.64637 3.47446 5.30723 3.72451 5.05718C3.97456 4.80713 4.3137 4.66666 4.66732 4.66666H6.00065"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								/>
 							</svg>
 							<span className="align-middle"> Form</span>
@@ -387,18 +394,18 @@ const Navigation = () => {
 							>
 								<path
 									d="M9.3335 2V4.66667C9.3335 4.84348 9.40373 5.01305 9.52876 5.13807C9.65378 5.2631 9.82335 5.33333 10.0002 5.33333H12.6668"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								/>
 								<path
 									d="M11.3335 14H4.66683C4.31321 14 3.97407 13.8595 3.72402 13.6095C3.47397 13.3594 3.3335 13.0203 3.3335 12.6667V3.33333C3.3335 2.97971 3.47397 2.64057 3.72402 2.39052C3.97407 2.14048 4.31321 2 4.66683 2H9.3335L12.6668 5.33333V12.6667C12.6668 13.0203 12.5264 13.3594 12.2763 13.6095C12.0263 13.8595 11.6871 14 11.3335 14Z"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								/>
 								<path
 									d="M6 10L7.33333 11.3333L10 8.66667"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								/>
 							</svg>
 							<span className="align-middle"> Invoice</span>

@@ -602,10 +602,10 @@ const Index = () => {
 				</div>
 				<div className="container mx-auto w-11/12 xl:w-full">
 					<div className="w-full py-4 sm:px-0 bg-white dark:bg-gray-800 flex justify-end">
-						<button className="text-gray-600 focus:outline-none transition duration-150 ease-in-out hover:bg-gray-100 dark:bg-gray-700 rounded  shadow-lg px-6 py-2 text-xs mr-4">
+						<button className="text-gray-600 dark:text-gray-200 focus:outline-none dark:hover:bg-gray-600 transition duration-150 ease-in-out hover:bg-gray-100 dark:bg-gray-700 rounded  shadow-lg px-6 py-2 text-xs mr-4">
 							Cancel
 						</button>
-						<button className="text-gray-600 focus:outline-none transition duration-150 ease-in-out hover:bg-gray-100 dark:bg-gray-700 rounded  shadow-lg px-6 py-2 text-xs mr-4">
+						<button className="text-gray-600 focus:outline-none dark:text-gray-200 dark:hover:bg-gray-600 transition duration-150 ease-in-out hover:bg-gray-100 dark:bg-gray-700 rounded  shadow-lg px-6 py-2 text-xs mr-4">
 							Save
 						</button>
 					</div>

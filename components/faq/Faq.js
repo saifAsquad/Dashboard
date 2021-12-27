@@ -5,8 +5,10 @@ function Index() {
 		<div className="container mx-auto pt-16">
 			<div className="w-11/12 xl:w-full mx-auto">
 				<div className="pb-12">
-					<h1 className="text-lg text-gray-600">Star with the basics</h1>
-					<h1 className="text-5xl text-gray-600 mt-4">
+					<h1 className="text-lg text-gray-600 dark:text-gray-200">
+						Star with the basics
+					</h1>
+					<h1 className="text-5xl text-gray-600 dark:text-gray-200 mt-4">
 						Frequently Asked Questions
 					</h1>
 				</div>
@@ -15,7 +17,7 @@ function Index() {
 						<div className="xl:px-8 lg:px-8 md:px-8 sm:px-8 px-4">
 							<div>
 								<div className="flex py-6 justify-between items-center border-b border-gray-200">
-									<h1 className="text-base md:text-xl lg:text-2xl text-gray-600 font-bold">
+									<h1 className="text-base md:text-xl lg:text-2xl text-gray-600 dark:text-gray-200 font-bold">
 										Interface and Display
 									</h1>
 									<div
@@ -64,40 +66,40 @@ function Index() {
 								{question === 0 && (
 									<ul>
 										<li className="xl:py-8 lg:py-8 md:py-8 sm:py-8 py-4">
-											<p className="text-gray-600 md:text-xl lg:text-2xl xl:w-10/12 w-full lg:mb-4 mb-2">
+											<p className="text-gray-600 dark:text-gray-200 md:text-xl lg:text-2xl xl:w-10/12 w-full lg:mb-4 mb-2">
 												What does lorem ipsum actually mean?
 											</p>
-											<p className="xl:w-10/12 w-full text-gray-600 lg:text-base text-sm">
+											<p className="xl:w-10/12 w-full text-gray-600 dark:text-gray-200 lg:text-base text-sm">
 												It provides a very simple start, no need to write a lot
 												of code, you just import it and start the primitive
 												components and create the ones you need.
 											</p>
 										</li>
 										<li className="py-4 md:py-6 lg:py-8">
-											<p className="text-gray-600 md:text-xl lg:text-2xl xl:w-10/12 w-full lg:mb-4 mb-2">
+											<p className="text-gray-600 dark:text-gray-200 md:text-xl lg:text-2xl xl:w-10/12 w-full lg:mb-4 mb-2">
 												What does lorem ipsum actually mean?
 											</p>
-											<p className="xl:w-10/12 lg:w-10/12 w-full text-gray-600 text-base">
+											<p className="xl:w-10/12 lg:w-10/12 w-full text-gray-600 dark:text-gray-200 text-base">
 												Modify the visual appearance of your site – including
 												colors, fonts, margins and other style-related
 												properties – with a sophisticated style.
 											</p>
 										</li>
 										<li className="py-4 md:py-6 lg:py-8">
-											<p className="text-gray-600 md:text-xl lg:text-2xl xl:w-10/12 w-full lg:mb-4 mb-2">
+											<p className="text-gray-600 dark:text-gray-200 md:text-xl lg:text-2xl xl:w-10/12 w-full lg:mb-4 mb-2">
 												What does lorem ipsum actually mean?
 											</p>
-											<p className="xl:w-10/12 w-full text-gray-600 lg:text-base text-sm">
+											<p className="xl:w-10/12 w-full text-gray-600 dark:text-gray-200 lg:text-base text-sm">
 												Instead of just giving you the tools to create your own
 												site, they offer you a list of themes you can choose
 												from. Thus a handy product
 											</p>
 										</li>
 										<li className="py-4 md:py-6 lg:py-8">
-											<p className="text-gray-600 text-2xl xl:w-10/12 lg:w-10/12 md:w-10/12 sm:w-10/12 w-full mb-4">
+											<p className="text-gray-600 dark:text-gray-200 text-2xl xl:w-10/12 lg:w-10/12 md:w-10/12 sm:w-10/12 w-full mb-4">
 												What does lorem ipsum actually mean?
 											</p>
-											<p className="xl:w-10/12 lg:w-10/12 md:w-10/12 sm:w-10/12 w-full text-gray-600 text-base">
+											<p className="xl:w-10/12 lg:w-10/12 md:w-10/12 sm:w-10/12 w-full text-gray-600 dark:text-gray-200 text-base">
 												We have chosen the bright color palettes that arouse the
 												only positive emotions. The kit that simply assures to
 												be loved by everyone.
@@ -108,7 +110,7 @@ function Index() {
 							</div>
 							<div>
 								<div className="flex py-6 justify-between items-center border-b border-gray-200">
-									<h1 className="text-base md:text-xl lg:text-2xl text-gray-600 font-bold">
+									<h1 className="text-base md:text-xl lg:text-2xl text-gray-600 dark:text-gray-200 font-bold">
 										Interface and Display
 									</h1>
 									<div
@@ -157,40 +159,40 @@ function Index() {
 								{question === 1 && (
 									<ul>
 										<li className="xl:py-8 lg:py-8 md:py-8 sm:py-8 py-4">
-											<p className="text-gray-600 md:text-xl lg:text-2xl xl:w-10/12 w-full lg:mb-4 mb-2">
+											<p className="text-gray-600 dark:text-gray-200 md:text-xl lg:text-2xl xl:w-10/12 w-full lg:mb-4 mb-2">
 												What does lorem ipsum actually mean?
 											</p>
-											<p className="xl:w-10/12 w-full text-gray-600 lg:text-base text-sm">
+											<p className="xl:w-10/12 w-full text-gray-600 dark:text-gray-200 lg:text-base text-sm">
 												It provides a very simple start, no need to write a lot
 												of code, you just import it and start the primitive
 												components and create the ones you need.
 											</p>
 										</li>
 										<li className="py-4 md:py-6 lg:py-8">
-											<p className="text-gray-600 md:text-xl lg:text-2xl xl:w-10/12 w-full lg:mb-4 mb-2">
+											<p className="text-gray-600 dark:text-gray-200 md:text-xl lg:text-2xl xl:w-10/12 w-full lg:mb-4 mb-2">
 												What does lorem ipsum actually mean?
 											</p>
-											<p className="xl:w-10/12 lg:w-10/12 w-full text-gray-600 text-base">
+											<p className="xl:w-10/12 lg:w-10/12 w-full text-gray-600 dark:text-gray-200 text-base">
 												Modify the visual appearance of your site – including
 												colors, fonts, margins and other style-related
 												properties – with a sophisticated style.
 											</p>
 										</li>
 										<li className="py-4 md:py-6 lg:py-8">
-											<p className="text-gray-600 md:text-xl lg:text-2xl xl:w-10/12 w-full lg:mb-4 mb-2">
+											<p className="text-gray-600 dark:text-gray-200 md:text-xl lg:text-2xl xl:w-10/12 w-full lg:mb-4 mb-2">
 												What does lorem ipsum actually mean?
 											</p>
-											<p className="xl:w-10/12 w-full text-gray-600 lg:text-base text-sm">
+											<p className="xl:w-10/12 w-full text-gray-600 dark:text-gray-200 lg:text-base text-sm">
 												Instead of just giving you the tools to create your own
 												site, they offer you a list of themes you can choose
 												from. Thus a handy product
 											</p>
 										</li>
 										<li className="py-4 md:py-6 lg:py-8">
-											<p className="text-gray-600 text-2xl xl:w-10/12 lg:w-10/12 md:w-10/12 sm:w-10/12 w-full mb-4">
+											<p className="text-gray-600 dark:text-gray-200 text-2xl xl:w-10/12 lg:w-10/12 md:w-10/12 sm:w-10/12 w-full mb-4">
 												What does lorem ipsum actually mean?
 											</p>
-											<p className="xl:w-10/12 lg:w-10/12 md:w-10/12 sm:w-10/12 w-full text-gray-600 text-base">
+											<p className="xl:w-10/12 lg:w-10/12 md:w-10/12 sm:w-10/12 w-full text-gray-600 dark:text-gray-200 text-base">
 												We have chosen the bright color palettes that arouse the
 												only positive emotions. The kit that simply assures to
 												be loved by everyone.

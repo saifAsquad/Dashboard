@@ -20,7 +20,7 @@ const index = () => {
 					etiam iaculis sit. Sed tristique libero nunc tincidunt ornare.
 				</p>
 			</div>
-			<div className="flex flex-wrap justify-between">{makeCards()}</div>
+			<div className="flex justify-center flex-wrap">{makeCards()}</div>
 		</section>
 	);
 };
